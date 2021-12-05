@@ -12,3 +12,7 @@ pandas>=0.19
 flasgger==0.9.4
 streamlit
 Cython>= 0.28.5
+$ heroku buildpacks:set https://github.com/heroku/heroku-buildpack-python.git#remove-sqlite
+$ heroku config:set PYTHON_NO_SQLITE3=true
+$ git commit --allow-empty -m "test-new-python-runtime"
+$ git push heroku master
