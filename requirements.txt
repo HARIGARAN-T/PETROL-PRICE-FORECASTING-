@@ -4,4 +4,3 @@ matplotlib>=1.4.3
 pandas>=0.19
 streamlit>=0.74.1
 keras == 2.3
-tensorflow==2.5.0
