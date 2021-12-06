@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from keras.models import load_model
+from tensorflow.keras import models as load_models
 import streamlit as st
 
 
