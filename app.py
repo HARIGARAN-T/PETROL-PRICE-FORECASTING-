@@ -44,7 +44,7 @@ X_test, ytest = create_dataset(test_data, time_step)
 X_train =X_train.reshape(X_train.shape[0],X_train.shape[1] , 1)
 X_test = X_test.reshape(X_test.shape[0],X_test.shape[1] , 1)
 
-model = load_model("keras_model.h1")
+model = load_models("keras_model.h1")
 
 ### Lets Do the prediction and check performance metrics
 train_predict=model.predict(X_train)
