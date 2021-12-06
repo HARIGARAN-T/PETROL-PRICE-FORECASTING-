@@ -7,7 +7,7 @@ import streamlit as st
 
 st.title ("PETROL PRICE TREND PREDICTION")
 
-df = pd.read_csv(r"C:\Users\my pc\Desktop\i neuron\petrol-price-forecasting\train_data.csv")
+df = pd.read_csv(r"train_data.csv")
 
 #DESCRIBING DATA
 st.subheader("Data Decription")
